@@ -1,6 +1,6 @@
-#Counterfactual Inflation Analysis: What If Ukraine Had Been Part of the Euro Area?
+# Counterfactual Inflation Analysis: What If Ukraine Had Been Part of the Euro Area?
 
-#Key files 
+# Key files 
 
 * Main notebook: `QMF_Project_Matt_GUILBERT_SANDERSON.ipynb`
 * Part A monetary-regime summary: `docs/partA_monetary_regime_summary.md`
@@ -11,7 +11,7 @@
 * Local projection results: `outputs/local_projection_exchange_rate_passthrough.csv`
 * Blanchard–Quah SVAR benchmark: `outputs/bq_svar_counterfactual_annual.csv`
 
-#Project
+# Project
 
 This repository contains my final project for the course **Quantitative Methods in Finance**, Master 2 Finance, Technology and Data, Université Paris 1 Panthéon-Sorbonne.
 
@@ -22,11 +22,11 @@ The analysis is divided into two parts:
 * **Part A** documents the evolution of Ukraine’s exchange-rate and monetary regime from 2000 to 2025.
 * **Part B** estimates a counterfactual inflation path using an econometric framework that combines a Euro Area inflation anchor, exchange-rate pass-through, time-varying treatment intensity, local projections, and a Blanchard–Quah SVAR benchmark.
 
-#Research question
+# Research question
 
 What would Ukraine’s inflation trajectory have looked like had Ukraine been a member of the Euro Area?
 
-#Main idea
+# Main idea
 
 The counterfactual is not treated as a constant treatment over time.
 
@@ -38,7 +38,7 @@ Part A shows that Ukraine’s monetary sovereignty varied substantially across t
 
 This motivates a time-varying treatment-intensity index used in the counterfactual model.
 
-#Repository structure
+# Repository structure
 
 ```text
 .
@@ -59,18 +59,18 @@ This motivates a time-varying treatment-intensity index used in the counterfactu
     └── partA_monetary_regime_summary.md
 ```
 
-#Data
+# Data
 
 The project uses two types of data.
 
-#Exam repository data
+# Exam repository data
 
 * `data_ecb_hicp_panel.csv`: monthly year-on-year HICP inflation for Euro Area countries.
 * `data_ukraine_cpi_raw.csv`: Ukrainian CPI index, expressed as previous-month base.
 
 The Ukrainian CPI series is transformed into year-on-year inflation in the notebook to make it comparable with the Euro Area HICP panel.
 
-#External macroeconomic data
+# External macroeconomic data
 
 The project also uses external macroeconomic data:
 
@@ -83,7 +83,7 @@ These variables are used to document the monetary-regime chronology, estimate th
 
 Additional details are provided in `data/README_data.md`.
 
-#Methodology
+# Methodology
 
 The main monthly counterfactual model estimates Ukrainian year-on-year inflation as a function of:
 
@@ -101,7 +101,7 @@ The analysis is complemented by:
 * a Blanchard–Quah SVAR benchmark based on output growth and inflation;
 * robustness checks using an alternative Euro Area inflation anchor.
 
-#Main outputs
+# Main outputs
 
 The main figure required by the exam is:
 
@@ -133,7 +133,7 @@ outputs/regime_table_partA.csv
 ```
 
 
-#Author
+# Author
 
 Matt Guilbert-Sanderson
 Master 2 Finance, Technology and Data
