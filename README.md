@@ -1,6 +1,6 @@
 #Counterfactual Inflation Analysis: What If Ukraine Had Been Part of the Euro Area?
 
-#Key files for grading
+#Key files 
 
 * Main notebook: `QMF_Project_Matt_GUILBERT_SANDERSON.ipynb`
 * Part A monetary-regime summary: `docs/partA_monetary_regime_summary.md`
