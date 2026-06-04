@@ -1,0 +1,2 @@
+sample_start,sample_end,n_months,selected_lag_main,first_pc_variance_explained,main_model_train_end,external_data_used,bq_svar_lag_ukraine,bq_svar_lag_euro_area,giavazzi_pagano_check_included,bq_svar_fevd_included
+2001-01-01,2025-12-01,300,6,0.8015770762242079,2021-12-01,NBU UAH/USD official exchange rate; Brent oil price from FRED when available; World Bank real GDP growth for Ukraine and Euro Area used in BQ-SVAR benchmark,1,2,True,True
